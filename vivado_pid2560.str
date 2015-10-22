@@ -1,0 +1,593 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 2560
+
+Current time: 	10/22/15 10:38:58 AM UTC
+Time zone: 	Coordinated Universal Time (Etc/UTC)
+
+OS: DISTRIB_ID="Progress Linux"
+Version: 3.16.0-4-amd64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	/opt/Xilinx/Vivado/2015.2/tps/lnx64/jre
+
+User name: 	user
+User directory: /home/user/EmbSys
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/user/.Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: /home/user/.Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	139 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,817 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 34 MB (+33357kb) [00:00:05]
+// [Engine Memory]: 4,817 MB (+4899613kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,817 MB. GUI used memory: 20 MB. Current time: 10/22/15 10:39:00 AM UTC
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create New Project"); // l:JideButton (JPanel:JComponent, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 36 MB (+280kb) [00:00:11]
+// [GUI Memory]: 42 MB (+4294kb) [00:00:11]
+// [GUI Memory]: 48 MB (+3956kb) [00:00:11]
+// [GUI Memory]: 54 MB (+3648kb) [00:00:11]
+// a:g (cl:JFrame): New Project: addNotify
+// [GUI Memory]: 58 MB (+1307kb) [00:00:12]
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+// [GUI Memory]: 61 MB (+98kb) [00:00:27]
+// Elapsed time: 25 seconds
+setText(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, "/home/user/EmbSys/lab1"); // ao:JTextField (aS:JPanel, a:g)
+// Elapsed time: 17 seconds
+setText(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, "/home/user/EmbSys"); // ao:JTextField (aS:JPanel, a:g)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "lab1"); // ao:JTextField (JPanel:JComponent, a:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+// Elapsed time: 20 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+// Elapsed time: 52 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+selectButton(PAResourceOtoP.PartChooser_BOARDS, "Boards"); // l:s (JPanel:JComponent, a:g): TRUE
+selectComboBox(PAResourceOtoP.PartChooser_BOARD_VENDOR_CHOOSER, "xilinx.com", 2); // H:M (JPanel:JComponent, a:g)
+selectComboBox(PAResourceOtoP.PartChooser_BOARD_VENDOR_CHOOSER, "em.avnet.com", 1); // H:M (JPanel:JComponent, a:g)
+selectComboBox(PAResourceOtoP.PartChooser_BOARD_DISPLAY_NAME_CHOOSER, "ZedBoard Zynq Evaluation and Development Kit", 1); // q:M (JPanel:JComponent, a:g)
+// Elapsed time: 28 seconds
+selectComboBox(PAResourceOtoP.PartChooser_BOARD_REV_CHOOSER, "c", 2); // C:M (JPanel:JComponent, a:g)
+// Elapsed time: 14 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+// Elapsed time: 32 seconds
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+selectTable(PAResourceOtoP.PartChooser_BOARDS, "ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; c ; xc7z020clg484-1 ; 484 ; 0.9 ; 200 ; 53200 ; 106400 ; 140 ; 220 ; 0 ; 0 ; 0 ; 0 ; 4 ; 0 ; 85 ; 85 ; 0.95 ; 0.95 ; 1.05 ; C", 0, "ZedBoard Zynq Evaluation and Development Kit", 0); // N:v (JViewport:JComponent, a:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+// cp:P (a:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project lab1 /home/user/EmbSys/lab1 -part xc7z020clg484-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part em.avnet.com:zed:part0:0.9 [current_project] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, a:g)
+// 'g' command handler elapsed time: 240 seconds
+dismissDialog("Create Project"); // cp:P (a:g)
+dismissDialog("New Project"); // a:g (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,907 MB. GUI used memory: 27 MB. Current time: 10/22/15 10:43:05 AM UTC
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+// aE:ag (cl:JFrame): Create Block Design: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "system"); // ao:JTextField (JPanel:JComponent, aE:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aE:ag)
+// 'C' command handler elapsed time: 12 seconds
+dismissDialog("Create Block Design"); // aE:ag (cl:JFrame)
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: create_bd_design "system" 
+// Tcl Message: Wrote  : </home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/system.bd>  
+// cp:P (cl:JFrame):  Create Block Design : addNotify
+dismissDialog("Create Block Design"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,930 MB. GUI used memory: 30 MB. Current time: 10/22/15 10:43:35 AM UTC
+// [GUI Memory]: 65 MB (+1433kb) [00:04:46]
+// [GUI Memory]: 70 MB (+976kb) [00:05:13]
+// Elapsed time: 36 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, (String) null); // w:JideButton (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 76 MB (+2590kb) [00:05:17]
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, (String) null); // w:JideButton (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zy"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 0, "ZYNQ7 Processing System", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 0, "ZYNQ7 Processing System", 0, false); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 0); // O:av (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 0, "ZYNQ7 Processing System", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: LOAD_FEATURE
+// cp:P (cl:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Add IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cn:ag (t:P): Configuration Presets: addNotify
+// [GUI Memory]: 81 MB (+1580kb) [00:06:12]
+// Elapsed time: 31 seconds
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,019 MB. GUI used memory: 37 MB. Current time: 10/22/15 10:45:05 AM UTC
+// Elapsed time: 37 seconds
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces", 0, "Memory Interfaces", 0, true); // aX:cw (JViewport:JComponent, t:P) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1, "I/O Peripherals", 0, true); // aX:cw (JViewport:JComponent, t:P) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces", 0, "Memory Interfaces", 0, true, false, true, false, false, false); // aX:cw (JViewport:JComponent, t:P) - Control Key - Node
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces", 0); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 4); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit", 20); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug", 24); // aX:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ;  ;  ;  ;  ;  ;  ; ", 12, "UART 1", 0, true); // aX:cw (JViewport:JComponent, t:P) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "UART 1 ; MIO 48 .. 49 ;  ;  ;  ;  ;  ; ", 12, "UART 1", 0, true, false, false, false, true, false); // aX:cw (JViewport:JComponent, t:P) - Popup Trigger - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 5,053 MB. GUI used memory: 53 MB. Current time: 10/22/15 10:46:10 AM UTC
+// Elapsed time: 17 seconds
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+// [GUI Memory]: 87 MB (+2463kb) [00:07:38]
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+// [GUI Memory]: 97 MB (+5306kb) [00:07:53]
+// Elapsed time: 30 seconds
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "General ; General ; General", 0); // aA:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "General ; General ; General", 0, "General", 0, true, false, false, false, true, false); // aA:cw (JViewport:JComponent, t:P) - Popup Trigger - Node
+collapseTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "General ; General ; General", 0); // aA:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "General ; General ; General", 0); // aA:cw (JViewport:JComponent, t:P)
+// [GUI Memory]: 104 MB (+2714kb) [00:08:23]
+// Elapsed time: 22 seconds
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "M AXI GP0 interface ; 1 ; Enables General purpose AXI master interface 0", 2, "1", 1, false); // aA:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "General ; General ; General", 0); // aA:cw (JViewport:JComponent, t:P)
+// [GUI Memory]: 113 MB (+4229kb) [00:08:53]
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "Enable Clock Resets ; Enable Clock Resets ; Enable Clock Resets", 17); // aA:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "FCLK_RESET0_N ; 1 ; Enables general purpose reset signal 0 for PL logic", 18, "1", 1, false); // aA:cw (JViewport:JComponent, t:P)
+// Elapsed time: 10 seconds
+collapseTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "Enable Clock Resets ; Enable Clock Resets ; Enable Clock Resets", 17); // aA:cw (JViewport:JComponent, t:P)
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 2); // A:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK0 ; IO PLL ; 50 ; 50.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 3, "FCLK_CLK0", 0, false, false, false, false, true, false); // A:cw (JViewport:JComponent, t:P) - Popup Trigger
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK0 ; IO PLL ; 50 ; 50.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 3, "FCLK_CLK0", 0, false); // A:cw (JViewport:JComponent, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_USE_M_AXI_GP0 {0} CONFIG.PCW_EN_CLK0_PORT {0} CONFIG.PCW_EN_RST0_PORT {0} CONFIG.PCW_UART1_PERIPHERAL_ENABLE {1}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// [GUI Memory]: 120 MB (+590kb) [00:09:43]
+// Elapsed time: 38 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 96, 110, 258, 588, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// Elapsed time: 11 seconds
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_RUN_BLOCK_AUTOMATION, "Run Block Automation..."); // ab:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_RUN_BLOCK_AUTOMATION, "Run Block Automation..."); // ab:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// t:ag (cl:JFrame): Run Block Automation: addNotify
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (1 out of 1 selected), processing_system7_0]", 1, false, false, ui.utils.TriState.True); // H:a (JViewport:JComponent, t:ag)
+// Elapsed time: 38 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ag)
+dismissDialog("Run Block Automation"); // t:ag (cl:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0] 
+// cp:P (cl:JFrame):  Run Block Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Run Block Automation"); // cp:P (cl:JFrame)
+// Elapsed time: 24 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 77, 117, 258, 588, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 299, 85, false, false, false, true, false); // dQ:J (JPanel:JComponent, cl:JFrame) - Popup Trigger
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 273, 70); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 269, 66); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 262, 31); // dQ:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 74 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 194, 305, 354, 588, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, Popup:JWindow)
+// Elapsed time: 148 seconds
+selectTab((HResource) null, (HResource) null, "Signals", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Design", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1 259 142} [get_bd_cells processing_system7_0] 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cn:ag (t:P): Configuration Presets: addNotify
+// Elapsed time: 19 seconds
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // l:JideButton (cj:ButtonPanel, t:P)
+// [GUI Memory]: 128 MB (+2772kb) [00:16:29]
+selectCheckBox((HResource) null, "Ethernet 0", false); // bz:h (bv:av, t:P): FALSE
+selectCheckBox((HResource) null, "USB 0", false); // bz:h (bv:av, t:P): FALSE
+selectTreeTable(PAResourceItoN.MIOTablePagePanel_MIO_TABLE, (String) null, 5, (String) null, 0, false); // bv:av (JViewport:JComponent, t:P)
+selectCheckBox((HResource) null, "SD 0", false); // bz:h (bv:av, t:P): FALSE
+selectTreeTable(PAResourceItoN.MIOTablePagePanel_MIO_TABLE, (String) null, 7, (String) null, 0, true); // bv:av (JViewport:JComponent, t:P) - Node
+selectCheckBox((HResource) null, "Ethernet 0", false); // bz:h (bv:av, t:P): FALSE
+selectTreeTable(PAResourceItoN.MIOTablePagePanel_MIO_TABLE, (String) null, 3, (String) null, 0, true); // bv:av (JViewport:JComponent, t:P) - Node
+// [GUI Memory]: 149 MB (+14451kb) [00:16:35]
+selectCheckBox((HResource) null, "Quad SPI Flash", false); // bz:h (bv:av, t:P): FALSE
+selectCheckBox((HResource) null, "Quad SPI Flash", false); // bz:h (bv:av, t:P): FALSE
+selectTreeTable(PAResourceItoN.MIOTablePagePanel_MIO_TABLE, (String) null, 0, (String) null, 0, true); // bv:av (JViewport:JComponent, t:P) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// [GUI Memory]: 163 MB (+7863kb) [00:16:47]
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 172 MB (+101kb) [00:16:48]
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_QSPI_PERIPHERAL_ENABLE {0} CONFIG.PCW_ENET0_PERIPHERAL_ENABLE {0} CONFIG.PCW_SD0_PERIPHERAL_ENABLE {0} CONFIG.PCW_USB0_PERIPHERAL_ENABLE {0}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// [Engine Memory]: 5,058 MB (+183kb) [00:16:49]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cn:ag (t:P): Configuration Presets: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces", 0); // aX:cw (JViewport:JComponent, t:P)
+// [GUI Memory]: 184 MB (+4078kb) [00:17:05]
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit", 20); // aX:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Timer 0 ; EMIO ;  ;  ;  ;  ;  ; ", 21, "Timer 0", 0, false); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug", 24); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "ENET 0 ;  ;  ;  ;  ;  ;  ; ", 5); // aX:cw (JViewport:JComponent, t:P)
+collapseTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "ENET 0 ;  ;  ;  ;  ;  ;  ; ", 5); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "ENET 1 ;  ;  ;  ;  ;  ;  ; ", 6); // aX:cw (JViewport:JComponent, t:P)
+collapseTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "ENET 1 ;  ;  ;  ;  ;  ;  ; ", 6); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "NAND Flash ;  ;  ;  ;  ;  ;  ; ", 3); // aX:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "NAND Flash ;  ;  ;  ;  ;  ;  ; ", 3, "NAND Flash", 0, true, false, false, false, false, true); // aX:cw (JViewport:JComponent, t:P) - Double Click - Node
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "SRAM/NOR Flash ;  ;  ;  ;  ;  ;  ; ", 2); // aX:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "SRAM/NOR Flash ;  ;  ;  ;  ;  ;  ; ", 2, "SRAM/NOR Flash", 0, true, false, false, false, false, true); // aX:cw (JViewport:JComponent, t:P) - Double Click - Node
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Quad SPI Flash ;  ;  ;  ;  ;  ;  ; ", 1); // aX:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "SPI 0 ;  ;  ;  ;  ;  ;  ; ", 26); // aX:cw (JViewport:JComponent, t:P)
+selectButton(PAResourceItoN.MIOConfigMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+// Elapsed time: 34 seconds
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO MIO ; MIO ;  ;  ;  ;  ;  ; ", 51, "GPIO MIO", 0, true, false, false, false, true, false); // aX:cw (JViewport:JComponent, t:P) - Popup Trigger - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO MIO ; MIO ;  ;  ;  ;  ;  ; ", 51, "GPIO MIO", 0, true); // aX:cw (JViewport:JComponent, t:P) - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO MIO ;  ;  ;  ;  ;  ;  ; ", 51, "GPIO MIO", 0, false); // aX:cw (JViewport:JComponent, t:P)
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "GPIO MIO ; MIO ;  ;  ;  ;  ;  ; ", 51, "GPIO MIO", 0, true); // aX:cw (JViewport:JComponent, t:P) - Node
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 0); // A:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks", 3); // A:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 11); // A:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks", 16); // A:cw (JViewport:JComponent, t:P)
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "Timers ; Timers ; Timers ; Timers ; Timers ; Timers", 18); // A:cw (JViewport:JComponent, t:P)
+// [GUI Memory]: 197 MB (+3792kb) [00:18:25]
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// [GUI Memory]: 215 MB (+7893kb) [00:18:36]
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_TTC0_PERIPHERAL_ENABLE {0} CONFIG.PCW_GPIO_MIO_GPIO_ENABLE {0}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cn:ag (t:P): Configuration Presets: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton(PAResourceAtoD.ClkConfigMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,077 MB. GUI used memory: 167 MB. Current time: 10/22/15 10:57:40 AM UTC
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK0 ; IO PLL ; 100.000000 ; 100.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 15, "FCLK_CLK0", 0, false); // A:cw (JViewport:JComponent, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_EN_CLK0_PORT {0}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cn:ag (t:P): Configuration Presets: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+// Elapsed time: 14 seconds
+selectButton("Interrupts", "Interrupts"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("SMC Timing Calculation", "SMC Timing Calculation"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectTreeTableHeader(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Peripheral", 0); // aX:cw (JViewport:JComponent, t:P)
+// Elapsed time: 10 seconds
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("DDR Configuration", "DDR Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("SMC Timing Calculation", "SMC Timing Calculation"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("Interrupts", "Interrupts"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // l:JideButton (cj:ButtonPanel, t:P)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,101 MB. GUI used memory: 206 MB. Current time: 10/22/15 10:58:36 AM UTC
+setText("PAResourceItoN.MIOTablePagePanel_MIO_TABLE_SEARCH_FIELD", "M_AXI"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, t:P)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+// [GUI Memory]: 226 MB (+1160kb) [00:19:52]
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "M AXI GP0 interface ; 1 ; Enables General purpose AXI master interface 0", 6, "1", 1, false); // aA:cw (JViewport:JComponent, t:P)
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+// [GUI Memory]: 244 MB (+6284kb) [00:20:02]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_USE_M_AXI_GP0 {0}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_PIN
+// t:P (cl:JFrame): Customize Pin: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Customize Pin"); // t:P (cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cn:ag (t:P): Configuration Presets: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton(PAResourceAtoD.ClkConfigMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+// [GUI Memory]: 258 MB (+2354kb) [00:20:32]
+selectButton("Interrupts", "Interrupts"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton(PAResourceEtoH.GICMainPanel_COLLAPSE_ALL, "IP Catalog_collapse_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+selectButton(PAResourceEtoH.GICMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+selectButton("SMC Timing Calculation", "SMC Timing Calculation"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton(PAResourceQtoS.SMCMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+selectButton(PAResourceQtoS.SMCMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+selectButton("DDR Configuration", "DDR Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton(PAResourceAtoD.DDRConfigMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+selectButton("Clock Configuration", "Clock Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton("MIO Configuration", "MIO Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton(PAResourceItoN.MIOConfigMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // l:JideButton (cj:ButtonPanel, t:P)
+// [GUI Memory]: 289 MB (+19119kb) [00:20:57]
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // l:JideButton (cj:ButtonPanel, t:P)
+selectButton(PAResourceEtoH.GenSettingMainPanel_EXPAND_ALL, "IP Catalog_expand_all"); // w:JideButton (CommandBar:DockableBar, t:P)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "FCLK_RESET0_N ; 1 ; Enables general purpose reset signal 0 for PL logic", 27, "1", 1, false); // aA:cw (JViewport:JComponent, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_EN_RST0_PORT {0}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/system.bd>  
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 86, 104, 354, 588, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.bd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.bd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// aB:ag (cl:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// cp:P (cl:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/system.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/hdl/system.vhd VHDL Output written to : /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/hdl/system_wrapper.vhd Wrote  : </home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/system.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'system_processing_system7_0_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'system_processing_system7_0_0'... 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,140 MB. GUI used memory: 252 MB. Current time: 10/22/15 11:00:51 AM UTC
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'system_processing_system7_0_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'system_processing_system7_0_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'system_processing_system7_0_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/hw_handoff/system.hwh Generated Block Design Tcl file /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/hdl/system.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 5988.902 ; gain = 31.797 ; free physical = 5167 ; free virtual = 6483 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// 'aO' command handler elapsed time: 27 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.bd)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:ag (cl:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:ag)
+// 'L' command handler elapsed time: 6 seconds
+dismissDialog("Create HDL Wrapper"); // a:ag (cl:JFrame)
+// Tcl Message: make_wrapper -files [get_files /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/system.bd] -top 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/user/EmbSys/lab1/lab1.srcs/sources_1/bd/system/hdl/system_wrapper.vhd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (O:aK, cl:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (O:aK, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Board", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Signals", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Design", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, system_wrapper.vhd]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, system_wrapper.vhd]", 3, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 61 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (O:aK, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, system]", 1); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, system, Simulation]", 4); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, system, Implementation]", 3); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, system, Synthesis]", 2); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, system]", 1); // A:k (H:JPanel, cl:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs]", 0); // A:k (H:JPanel, cl:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 0); // g:JideTabbedPane (O:aK, cl:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (O:aK, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd), system - STRUCTURE (system.vhd), processing_system7_0 - system_processing_system7_0_0 (system_processing_system7_0_0.xci)]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd), system - STRUCTURE (system.vhd), processing_system7_0 - system_processing_system7_0_0 (system_processing_system7_0_0.xci)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''system_processing_system7_0_0.xci' IP is part of a block design. Please use the block<br>design 'system' to customize the IP. (Re-customize IP)'
+// 'H' command handler elapsed time: 7 seconds
+selectButton("OptionPane.button", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ag (cl:JFrame): Export Hardware: addNotify
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ag)
+// 'n' command handler elapsed time: 43 seconds
+dismissDialog("Export Hardware"); // G:ag (cl:JFrame)
+// Tcl Message: file mkdir /home/user/EmbSys/lab1/lab1.sdk 
+// Tcl Message: write_hwdef -force  -file /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+// Elapsed time: 20 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+// 'p' command handler elapsed time: 28 seconds
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace /home/user/EmbSys/lab1/lab1.sdk -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/user/EmbSys/lab1/lab1.sdk -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 1244 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 113, 30); // dQ:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 37 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+// 'p' command handler elapsed time: 3 seconds
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace /home/user/EmbSys/lab1/lab1.sdk -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/user/EmbSys/lab1/lab1.sdk -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 305 MB (+707kb) [00:51:05]
+// Elapsed time: 236 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ag (cl:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ag)
+dismissDialog("Launch SDK"); // J:ag (cl:JFrame)
+// Tcl Message: launch_sdk -workspace /home/user/EmbSys/lab1/lab1.sdk -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/user/EmbSys/lab1/lab1.sdk -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 235, 99); // dQ:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,150 MB. GUI used memory: 252 MB. Current time: 10/22/15 11:30:51 AM UTC
