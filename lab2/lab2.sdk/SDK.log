@@ -1,0 +1,56 @@
+11:05:01 INFO  : Processing command line option -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf.
+11:05:04 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:05:05 INFO  : XSDB server has started successfully.
+11:17:57 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:475)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:18:31 INFO  : ps7_init is completed.
+11:18:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:19:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:20:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:20:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:21:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:21:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:25:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:26:37 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:26:37 INFO  : Processing command line option -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf.
+11:26:38 INFO  : XSDB server has started successfully.
+11:26:38 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:30:36 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:30:36 INFO  : Processing command line option -hwspec /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf.
+11:30:37 INFO  : XSDB server has started successfully.
+11:30:37 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:32:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:47:39 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:47:40 INFO  : Processing command line option -hwspec /home/user/lab2/lab2.sdk/system_wrapper.hdf.
+11:47:43 INFO  : XSDB server has started successfully.
+11:47:45 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1443806026000,  Project:1445511857000
+11:47:45 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at /home/user/EmbSys/lab1/lab1.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:47:46 INFO  : Project system_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+11:51:16 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:51:17 INFO  : XSDB server has started successfully.
+11:51:18 INFO  : Processing command line option -hwspec /home/user/lab2/lab2.sdk/system_wrapper.hdf.
+11:51:19 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+12:03:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:03:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492550" && level==0} -index 1' command is executed.
+12:03:35 INFO  : FPGA configured successfully with bitstream "/home/user/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+12:11:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:11:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492550" && level==0} -index 1' command is executed.
+12:11:38 INFO  : FPGA configured successfully with bitstream "/home/user/lab2/lab2.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+12:11:51 INFO  : ps7_init is completed.
+12:11:51 INFO  : ps7_post_config is completed.
+12:11:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:16:56 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

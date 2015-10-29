@@ -1,0 +1,6 @@
+1446120538302	Delete resource 'standalone_bsp'
+1446120550015	Delete resource 'TestApp'
+1446120625192	Delete resource 'TestApp/src/platform.h'
+1446120627605	Delete resource 'TestApp/src/platform.c'
+1446120630539	Delete resource 'TestApp/src/helloworld.c'
+1446120633001	Delete resource 'TestApp/src/platform_config.h'
